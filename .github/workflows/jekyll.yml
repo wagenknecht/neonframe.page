@@ -43,7 +43,7 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Install dependencies
         run: |
-            cd github-pages
+            cd neonframe.page/github-pages
             gem install bundler
             bundle install
             npm install
